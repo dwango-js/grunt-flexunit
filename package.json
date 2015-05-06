@@ -1,0 +1,50 @@
+{
+  "name": "grunt-flexunit",
+  "description": "Grunt plugin for flexunit-server",
+  "version": "1.3.0",
+  "author": {
+    "name": "10sr",
+    "email": "8slashes+git@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dwango-js/grunt-flexunit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwango-js/grunt-flexunit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dwango-js/grunt-flexunit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "private": true,
+  "keywords": [
+    "flexunit",
+    "grunt"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "debug": "^2.1.0",
+    "flexunit-server": "git+https://github.com/dwango-js/flexunit-server.git#v1.4.0",
+    "node-static": "^0.7.6",
+    "tmp": "0.0.24",
+    "which": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "~0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-mocha-test": "^0.12.2",
+    "rimraf": "^2.2.8",
+    "mocha": "^1.21.5"
+  }
+}
