@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/dwango-js/grunt-flexunit.svg)](https://travis-ci.org/dwango-js/grunt-flexunit)
+
+
 grunt-flexunit
 ==============
 
