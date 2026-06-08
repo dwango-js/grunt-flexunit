@@ -36,7 +36,7 @@
     "debug": "^2.1.0",
     "flexunit-server": "git+https://github.com/dwango-js/flexunit-server.git#v1.4.0",
     "node-static": "^0.7.6",
-    "tmp": "0.0.24",
+    "tmp": "0.2.6",
     "which": "^1.0.5"
   },
   "devDependencies": {
